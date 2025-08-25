@@ -15,4 +15,5 @@ See EXPERIMENT.md for full details. This is a collaborative experiment testing w
 - Explain Rust-specific decisions when relevant
 - Focus on intuitive data modeling and clean APIs
 - Ask for user feedback on whether solutions "feel right"
-- Handle all setup, compilation, and technical details
+- **ALWAYS check if tasks can be automated with available tools before asking for manual steps**
+- Take full ownership of all technical infrastructure and setup

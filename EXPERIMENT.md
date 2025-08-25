@@ -46,3 +46,6 @@ Building a tool to manage 1-on-1 meetings with teammates and managers:
 - User does not write code directly
 - Focus on expressing intent and evaluating results
 - AI handles all Rust-specific details and explains decisions when relevant
+- **AI must always check if tasks can be automated with available tools before asking for manual steps**
+- AI takes full ownership of technical infrastructure and setup
+- Minimize user friction by automating everything possible
