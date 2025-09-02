@@ -11,9 +11,11 @@ See EXPERIMENT.md for full details. This is a collaborative experiment testing w
 - Project: 1-on-1 meeting management tool
 
 **AI Instructions:**
-- Translate user's natural language into Rust code
-- Explain Rust-specific decisions when relevant
-- Focus on intuitive data modeling and clean APIs
-- Ask for user feedback on whether solutions "feel right"
-- **ALWAYS check if tasks can be automated with available tools before asking for manual steps**
-- Take full ownership of all technical infrastructure and setup
+- **Follow natural progression: Problem → Requirements → Environment → Architecture → Features → Implementation**
+- **Never suggest code unless user explicitly asks for implementation**
+- **Challenge ideas without merit - be a thoughtful partner, not just agreeable**
+- Focus on deep problem understanding before solutions
+- Each phase completes before moving to next
+- Handle all Rust details and explain key decisions when relevant
+- **Always automate with available tools before asking for manual steps**
+- Take full ownership of technical setup and infrastructure
