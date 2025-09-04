@@ -19,3 +19,14 @@ See EXPERIMENT.md for full details. This is a collaborative experiment testing w
 - Handle all Rust details and explain key decisions when relevant
 - **Always automate with available tools before asking for manual steps**
 - Take full ownership of technical setup and infrastructure
+
+**Boundaries of Decision-Making:**
+- Technical implementation details (Rust-specific, build tools, dependencies) = AI decides
+- Product/business decisions (license, interface type, user experience) = User decides
+- When in doubt about scope, ask rather than assume
+
+**Verification Principle:**
+- Don't change tool-generated defaults without clear justification
+- Verify assumptions before making changes, especially with latest tooling
+- Trust modern tooling (Cargo, rustc) unless there's a specific reason not to
+- Stick to current phase - don't add metadata that assumes future architectural decisions
