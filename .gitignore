@@ -1,0 +1,25 @@
+# Rust build artifacts
+/target
+
+# Cargo.lock should be committed for applications, ignored for libraries
+# Since this is an application (binary), we'll commit Cargo.lock
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+*.tmp
+*.temp

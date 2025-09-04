@@ -1,0 +1,12 @@
+[package]
+name = "oneone"
+version = "0.1.0"
+edition = "2024"
+description = "A simple tool to manage 1-on-1 meetings"
+authors = ["hovancik"]
+license = "BSD-3-Clause"
+repository = "https://github.com/hovancik/oneone"
+readme = "README.md"
+keywords = ["meetings", "management", "productivity"]
+
+[dependencies]
